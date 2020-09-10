@@ -28,17 +28,17 @@
 }
 
 .order-section {
-    background: url(../../img/decor/pattern.png);
+    background: url(../img/decor/pattern.png);
 
     &::before {
-        content: url(../../img/decor/blueberry.png);
+        content: url(../img/decor/blueberry.png);
         position: absolute;
         bottom: 21%;
         left: 3%;
     }
 
     &::after {
-        content: url(../../img/decor/leaf8.png);
+        content: url(../img/decor/leaf8.png);
         position: absolute;
         right: 5%;
         bottom: 20%;
@@ -48,10 +48,10 @@
 
 .reviews-section {
     position: relative;
-    background: url("../../img/decor/strawberry.png") right 2% top no-repeat;
+    background: url("../img/decor/strawberry.png") right 2% top no-repeat;
 
     &:before {
-        content: url("../../img/decor/berryleaf.png");
+        content: url("../img/decor/berryleaf.png");
         position: absolute;
         bottom: -80px;
         left: 0;
@@ -60,10 +60,10 @@
 
 .benefits-section {
     position: relative;
-    background: url("../../img/decor/side-leaf.png") left top 57% no-repeat;
+    background: url("../img/decor/side-leaf.png") left top 57% no-repeat;
 
     &:before {
-        content: url("../../img/decor/bars-and-berries.png");
+        content: url("../img/decor/bars-and-berries.png");
         position: absolute;
         bottom: -80px;
         left: 0;

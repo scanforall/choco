@@ -89,7 +89,7 @@ img {
   content: url("../img/decor/corner-leaf.png");
 }
 .hero:after {
-  content: url("../../img/decor/berry-and-leafs.png");
+  content: url("../img/decor/berry-and-leafs.png");
   position: absolute;
   bottom: -40px;
   right: 0;
@@ -216,16 +216,16 @@ img {
 }
 
 .order-section {
-  background: url(../../img/decor/pattern.png);
+  background: url(../img/decor/pattern.png);
 }
 .order-section::before {
-  content: url(../../img/decor/blueberry.png);
+  content: url(../img/decor/blueberry.png);
   position: absolute;
   bottom: 21%;
   left: 3%;
 }
 .order-section::after {
-  content: url(../../img/decor/leaf8.png);
+  content: url(../img/decor/leaf8.png);
   position: absolute;
   right: 5%;
   bottom: 20%;
@@ -233,10 +233,10 @@ img {
 
 .reviews-section {
   position: relative;
-  background: url("../../img/decor/strawberry.png") right 2% top no-repeat;
+  background: url("../img/decor/strawberry.png") right 2% top no-repeat;
 }
 .reviews-section:before {
-  content: url("../../img/decor/berryleaf.png");
+  content: url("../img/decor/berryleaf.png");
   position: absolute;
   bottom: -80px;
   left: 0;
@@ -244,10 +244,10 @@ img {
 
 .benefits-section {
   position: relative;
-  background: url("../../img/decor/side-leaf.png") left top 57% no-repeat;
+  background: url("../img/decor/side-leaf.png") left top 57% no-repeat;
 }
 .benefits-section:before {
-  content: url("../../img/decor/bars-and-berries.png");
+  content: url("../img/decor/bars-and-berries.png");
   position: absolute;
   bottom: -80px;
   left: 0;
@@ -314,7 +314,7 @@ img {
   position: relative;
 }
 .benefits__item:before {
-  content: url("../../img/decor/separator.png");
+  content: url("../img/decor/separator.png");
   position: absolute;
   top: 30px;
   right: 0;
@@ -331,7 +331,7 @@ img {
 }
 
 .reviews__display {
-  background: #f8faf9 url(../../img/decor/drown-berries.png) right top no-repeat;
+  background: #f8faf9 url(../img/decor/drown-berries.png) right top no-repeat;
   padding: 50px 45px 34px;
   margin-bottom: 20px;
   overflow: hidden;
@@ -475,7 +475,7 @@ img {
   border-radius: 0;
 }
 .radio--checkbox .radio__visible::before {
-  background: url("../../img/icons/checkmark.svg");
+  background: url("../img/icons/checkmark.svg");
 }
 
 .radio__elem {
