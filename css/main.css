@@ -75,7 +75,7 @@ img {
 }
 
 .hero {
-  background: url("../img/decor/chocolates.png") left 78% center no-repeat, url("../img/decor/big-leaf.png") right bottom no-repeat;
+  background: url("../img/decor/big-leaf.png") right bottom no-repeat;
   background-color: #61c4d9;
   height: 100vh;
   min-height: 650px;
@@ -105,6 +105,7 @@ img {
   justify-content: space-between;
   height: 100%;
   padding: 24px 0 45px 0;
+  background: url("../img/decor/chocolates.png") right center/50% auto no-repeat;
 }
 
 .hero__main-title {
@@ -117,8 +118,8 @@ img {
 
 .hero__title-desc {
   font-size: 21px;
-  margin-bottom: 45px;
-  padding-right: 10%;
+  margin-bottom: 25px;
+  padding-right: 15%;
 }
 
 .header {
@@ -146,7 +147,7 @@ img {
 }
 
 .features__item {
-  margin-right: 46px;
+  margin-right: 36px;
 }
 .features__item:last-child {
   margin-right: 0;
@@ -210,6 +211,9 @@ img {
   text-transform: uppercase;
   color: #000;
 }
+.section__title--margin--small {
+  margin-bottom: 25px;
+}
 
 .order-section {
   background: url(../../img/decor/pattern.png);
@@ -229,7 +233,7 @@ img {
 
 .reviews-section {
   position: relative;
-  background: url("../../img/decor/strawberry.png") right top no-repeat;
+  background: url("../../img/decor/strawberry.png") right 2% top no-repeat;
 }
 .reviews-section:before {
   content: url("../../img/decor/berryleaf.png");
@@ -264,8 +268,22 @@ img {
 
 .benefit {
   text-align: center;
+  color: #000;
+}
+.benefit__title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.benefit__desc {
+  text-align: center;
+  padding: 0 15px;
+  line-height: 22px;
 }
 
+.benefit__image {
+  margin-bottom: 20px;
+}
 .benefit__image-wrapper {
   display: inline-block;
   width: 126px;
@@ -287,6 +305,7 @@ img {
 
 .benefits {
   display: flex;
+  padding: 0 5%;
 }
 
 .benefits__item {
@@ -365,6 +384,7 @@ img {
 
 .reviews__text {
   margin-bottom: 36px;
+  padding-right: 135px;
 }
 
 .reviews__author {

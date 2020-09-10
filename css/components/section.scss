@@ -22,6 +22,9 @@
     text-transform: uppercase;
     color: #000;
     
+    &--margin--small {
+        margin-bottom: 25px;
+    }
 }
 
 .order-section {
@@ -45,7 +48,7 @@
 
 .reviews-section {
     position: relative;
-    background: url("../../img/decor/strawberry.png") right top no-repeat;
+    background: url("../../img/decor/strawberry.png") right 2% top no-repeat;
 
     &:before {
         content: url("../../img/decor/berryleaf.png");

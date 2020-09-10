@@ -4,6 +4,7 @@ $baseFontSize: 18px;
 //colors
 $blue: #61c4d9;
 $darkGreen: #0b4d3c;
+$black: #000;
 
 //z-indexes
 
@@ -24,11 +25,8 @@ $z-fixed-menu: 100;
 @import "components/section";
 @import "components/headline";
 @import "components/benefit";
-
 @import "components/reviews";
 @import "components/interactive-avatar";
-
-
 @import "components/form";
 @import "components/radio";
 @import "components/fixed-menu";
