@@ -11,3 +11,15 @@
     font-size: 16px;
     max-width: 85px;
 }
+
+.features {
+    display: flex;
+}
+
+.features__item {
+    margin-right: 46px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
