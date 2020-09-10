@@ -221,8 +221,8 @@ img {
 .order-section::before {
   content: url(../img/decor/blueberry.png);
   position: absolute;
-  bottom: 21%;
-  left: 3%;
+  bottom: 17%;
+  left: 2%;
 }
 .order-section::after {
   content: url(../img/decor/leaf8.png);
@@ -423,6 +423,9 @@ img {
 .form {
   display: flex;
 }
+.form__btns {
+  margin-top: 45px;
+}
 
 .form__col {
   flex: 1;
@@ -448,7 +451,7 @@ img {
 .form__input {
   width: 100%;
   border: none;
-  padding: 18px 11px;
+  padding: 16px 11px;
   border: solid 3px transparent;
 }
 .form__input--textarea {
@@ -463,6 +466,7 @@ img {
 .form__controls {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 
 .radio {
@@ -476,6 +480,9 @@ img {
 }
 .radio--checkbox .radio__visible::before {
   background: url("../img/icons/checkmark.svg");
+}
+.radio__title {
+  padding: 0 22px 0 8px;
 }
 
 .radio__elem {

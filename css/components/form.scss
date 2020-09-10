@@ -1,6 +1,10 @@
 .form {
     display: flex;
 
+    &__btns {
+        margin-top: 45px;
+    }
+
 }
 .form__col {
     flex: 1;
@@ -29,7 +33,7 @@
 .form__input {
     width: 100%;
     border: none;
-    padding: 18px 11px;
+    padding: 16px 11px;
     border: solid 3px transparent;
 
     &--textarea {
@@ -46,4 +50,5 @@
 .form__controls {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 }
