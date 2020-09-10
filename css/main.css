@@ -515,7 +515,7 @@ img {
 .fixed-menu {
   position: fixed;
   top: 20%;
-  right: 3%;
+  right: 4%;
   z-index: 100;
 }
 
