@@ -75,7 +75,7 @@ img {
 }
 
 .hero {
-  background: url("../../img/decor/chocolates.png") left 78% center no-repeat, url("../img/decor/big-leaf.png") right bottom no-repeat;
+  background: url("../img/decor/chocolates.png") left 78% center no-repeat, url("../img/decor/big-leaf.png") right bottom no-repeat;
   background-color: #61c4d9;
   height: 100vh;
   min-height: 650px;
