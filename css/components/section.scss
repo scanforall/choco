@@ -1,6 +1,6 @@
 .section {
     height: 100vh;
-    min-height: 650px;
+    min-height: rem(650px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,15 +15,15 @@
 }
 
 .section__title {
-    font-size: 48px;
+    font-size: rem(48px);
     font-weight: bold;
-    margin-bottom: 60px;
+    margin-bottom: rem(60px);
     text-align: center;
     text-transform: uppercase;
     color: #000;
     
     &--margin--small {
-        margin-bottom: 25px;
+        margin-bottom: rem(25px);
     }
 }
 
@@ -53,7 +53,7 @@
     &:before {
         content: url("../img/decor/berryleaf.png");
         position: absolute;
-        bottom: -80px;
+        bottom: rem(-80px);
         left: 0;
     }
 }
@@ -65,7 +65,7 @@
     &:before {
         content: url("../img/decor/bars-and-berries.png");
         position: absolute;
-        bottom: -80px;
+        bottom: rem(-80px);
         left: 0;
     }
 }
