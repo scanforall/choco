@@ -1,0 +1,32 @@
+.socials {
+  display: flex;
+ 
+}
+
+.socials__list {
+  display: flex;
+  flex-direction: row;
+}
+
+.socials__link {
+  display: flex;
+  
+}
+
+.socials__item {
+  margin-right: 15px;
+
+  &:hover {
+    opacity: 0.4;
+    transition-duration: .5s;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.socials__pic {
+  width: 25px;
+  height: 25px;
+}

@@ -1,0 +1,34 @@
+.footer {
+  
+  &__phone-number {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__phone-text {
+    color: $darkGreen;
+  }
+
+  &__phone-icon { 
+    height: rem(12px);
+    width: rem(12px);
+    margin-right: rem(10px);
+  }
+
+}
+
+.footer__container {
+  margin-top: rem(20px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__card {
+  
+  display: flex;
+  flex-direction: column;
+  font-size: rem(22px);
+}
