@@ -62,6 +62,11 @@
     position: relative;
     background: url("../img/decor/side-leaf.png") left top 57% no-repeat;
 
+    @include tablets {
+        
+        background-position: left top 12%;
+    }
+
     &:before {
         content: url("../img/decor/bars-and-berries.png");
         position: absolute;
