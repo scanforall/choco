@@ -2,6 +2,18 @@
     text-align: center;
     color: $black;
 
+    @include phones {
+        display: flex;
+        text-align: left;
+    }
+
+    &__text {
+
+        @include phones {
+            margin-left: rem(15px);
+        }
+    }
+
     &__title {
         font-size: rem(28px);
         font-weight: bold;
@@ -12,11 +24,20 @@
         text-align: center;
         padding: 0 rem(15px);
         line-height: rem(22px);
+
+        @include phones {
+            text-align: left;
+            padding: 0;
+        }
     }
 }
 
 .benefit__image {
     margin-bottom: rem(20px);
+
+    @include phones {
+        margin-bottom: 0;
+    }
 
     &-wrapper {
         display: inline-block;
@@ -40,7 +61,11 @@
 
 .benefits {
     display: flex;
-    padding: 0 5%
+    padding: 0 5%;
+
+    @include phones {
+        flex-direction: column;
+    }
 }
 
 .benefits__item {
@@ -48,12 +73,21 @@
     padding: 0 3%;
     position: relative;
 
+    @include phones {
+        padding: 0;
+        margin-bottom: rem(45px);
+    }
+
     &:before {
         content: url("../img/decor/separator.png");
         position: absolute;
         top: rem(30px);
         right: 0;
         transform: translateX(50%);
+
+        @include phones {
+            display: none;
+        }
     }
 
     &:first-child {

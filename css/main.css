@@ -127,6 +127,11 @@ img {
     display: flex;
   }
 }
+@media screen and (max-width: 480px) {
+  .hero__title-bg {
+    padding: 0px 9%;
+  }
+}
 
 .hero__title-section {
   width: 46%;
@@ -179,6 +184,11 @@ img {
 @media screen and (max-width: 768px) {
   .hero__title-desc {
     padding: 0 25%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero__title-desc {
+    padding: 0 10%;
   }
 }
 
@@ -277,6 +287,11 @@ img {
   text-transform: uppercase;
   color: #000;
 }
+@media screen and (max-width: 480px) {
+  .section__title {
+    font-size: 2.2222222222rem;
+  }
+}
 .section__title--margin--small {
   margin-bottom: 1.3888888889rem;
 }
@@ -317,11 +332,21 @@ img {
     background-position: left top 12%;
   }
 }
+@media screen and (max-width: 480px) {
+  .benefits-section {
+    background: none;
+  }
+}
 .benefits-section:before {
   content: url("../img/decor/bars-and-berries.png");
   position: absolute;
   bottom: -4.4444444444rem;
   left: 0;
+}
+@media screen and (max-width: 480px) {
+  .benefits-section:before {
+    background: none;
+  }
 }
 
 .headline {
@@ -336,10 +361,26 @@ img {
   padding: 0 26%;
   margin-bottom: 2.5rem;
 }
+@media screen and (max-width: 480px) {
+  .headline__subtitle {
+    padding: 0 1%;
+  }
+}
 
 .benefit {
   text-align: center;
   color: #000;
+}
+@media screen and (max-width: 480px) {
+  .benefit {
+    display: flex;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 480px) {
+  .benefit__text {
+    margin-left: 0.8333333333rem;
+  }
 }
 .benefit__title {
   font-size: 1.5555555556rem;
@@ -351,9 +392,20 @@ img {
   padding: 0 0.8333333333rem;
   line-height: 1.2222222222rem;
 }
+@media screen and (max-width: 480px) {
+  .benefit__desc {
+    text-align: left;
+    padding: 0;
+  }
+}
 
 .benefit__image {
   margin-bottom: 1.1111111111rem;
+}
+@media screen and (max-width: 480px) {
+  .benefit__image {
+    margin-bottom: 0;
+  }
 }
 .benefit__image-wrapper {
   display: inline-block;
@@ -378,11 +430,22 @@ img {
   display: flex;
   padding: 0 5%;
 }
+@media screen and (max-width: 480px) {
+  .benefits {
+    flex-direction: column;
+  }
+}
 
 .benefits__item {
   flex: 1;
   padding: 0 3%;
   position: relative;
+}
+@media screen and (max-width: 480px) {
+  .benefits__item {
+    padding: 0;
+    margin-bottom: 2.5rem;
+  }
 }
 .benefits__item:before {
   content: url("../img/decor/separator.png");
@@ -390,6 +453,11 @@ img {
   top: 1.6666666667rem;
   right: 0;
   transform: translateX(50%);
+}
+@media screen and (max-width: 480px) {
+  .benefits__item:before {
+    display: none;
+  }
 }
 .benefits__item:first-child {
   padding-left: 0;
@@ -523,6 +591,11 @@ img {
     padding: 0 14%;
   }
 }
+@media screen and (max-width: 480px) {
+  .form {
+    padding: 0;
+  }
+}
 .form__btns {
   margin-top: 2.5rem;
 }
@@ -583,6 +656,11 @@ img {
   flex-wrap: wrap;
   margin-bottom: 0.5555555556rem;
 }
+@media screen and (max-width: 480px) {
+  .form__controls {
+    justify-content: center;
+  }
+}
 
 .form__btns {
   display: flex;
@@ -594,6 +672,11 @@ img {
   cursor: pointer;
   -webkit-user-select: none;
           user-select: none;
+}
+@media screen and (max-width: 480px) {
+  .radio {
+    margin-bottom: 10px;
+  }
 }
 .radio--checkbox .radio__visible {
   border-radius: 0;
@@ -764,12 +847,23 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .footer__container {
+    flex-direction: column;
+  }
 }
 
 .footer__card {
   display: flex;
   flex-direction: column;
   font-size: 1.2222222222rem;
+}
+@media screen and (max-width: 480px) {
+  .footer__card {
+    align-items: center;
+  }
 }
 
 .socials {
@@ -797,6 +891,13 @@ img {
 }
 
 .socials__pic {
-  width: 25px;
-  height: 25px;
+  width: 1.3888888889rem;
+  height: 1.3888888889rem;
+}
+@media screen and (max-width: 480px) {
+  .socials__pic {
+    width: 1.1111111111rem;
+    height: 1.1111111111rem;
+    margin-bottom: 0.5555555556rem;
+  }
 }

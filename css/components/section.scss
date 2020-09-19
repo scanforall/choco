@@ -21,6 +21,10 @@
     text-align: center;
     text-transform: uppercase;
     color: #000;
+
+    @include phones {
+        font-size: rem(40px);
+    }
     
     &--margin--small {
         margin-bottom: rem(25px);
@@ -63,8 +67,11 @@
     background: url("../img/decor/side-leaf.png") left top 57% no-repeat;
 
     @include tablets {
-        
         background-position: left top 12%;
+    }
+    
+    @include phones {
+        background: none;
     }
 
     &:before {
@@ -72,5 +79,9 @@
         position: absolute;
         bottom: rem(-80px);
         left: 0;
+
+        @include phones {
+            background: none;
+        }
     }
 }

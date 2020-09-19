@@ -27,6 +27,13 @@
 }
 
 .socials__pic {
-  width: 25px;
-  height: 25px;
+  width: rem(25px);
+  height: rem(25px);
+  
+
+  @include phones {
+    width: rem(20px);
+    height: rem(20px);
+    margin-bottom: rem(10px);
+  }
 }

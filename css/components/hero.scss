@@ -37,6 +37,11 @@
 
     @include tablets {
         display: flex;
+        
+    }
+
+    @include phones {
+        padding: 0px 9%;
     }
     
 }
@@ -93,5 +98,9 @@
 
     @include tablets {
         padding: 0 25%;
+    }
+
+    @include phones {
+        padding: 0 10%;
     }
 }
