@@ -31,6 +31,17 @@
     }
 }
 
+.hero__title-bg {
+    display: none;
+    padding: 0 25%;
+
+    @include tablets {
+        display: flex;
+    }
+    
+}
+
+
 .hero__title-section {
     width: 46%;
 
@@ -43,11 +54,6 @@
         align-items: center;
         text-align: center;
 
-        &:before {
-            content: url("../img/decor/chocoberry.png");
-            
-            
-        }
     }
 }
 

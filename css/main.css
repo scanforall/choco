@@ -118,6 +118,16 @@ img {
   right: 0;
 }
 
+.hero__title-bg {
+  display: none;
+  padding: 0 25%;
+}
+@media screen and (max-width: 768px) {
+  .hero__title-bg {
+    display: flex;
+  }
+}
+
 .hero__title-section {
   width: 46%;
 }
@@ -130,9 +140,6 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
-  .hero__title-section:before {
-    content: url("../img/decor/chocoberry.png");
   }
 }
 
