@@ -469,6 +469,26 @@ img {
   display: none;
 }
 
+.reviews__list {
+  display: flex;
+}
+.reviews__item {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.active {
+  position: static;
+  opacity: 1;
+  pointer-events: unset;
+}
+
 .reviews__display {
   background: #f8faf9 url(../img/decor/drown-berries.png) right top no-repeat;
   padding: 2.7777777778rem 2.5rem 1.8888888889rem;
@@ -491,6 +511,12 @@ img {
 
 .reviews__display-inner {
   display: flex;
+  background: #f8faf9 url(../img/decor/drown-berries.png) right top no-repeat;
+  padding: 2.7777777778rem 2.5rem 1.8888888889rem;
+  margin-bottom: 1.1111111111rem;
+  overflow: hidden;
+  position: relative;
+  min-height: 344px;
 }
 @media screen and (max-width: 768px) {
   .reviews__display-inner {
@@ -500,7 +526,7 @@ img {
   }
 }
 
-.reviwes__switcher {
+.reviews__switcher {
   display: flex;
   justify-content: center;
 }
@@ -562,7 +588,10 @@ img {
   overflow: hidden;
   position: relative;
 }
-.interactive-avatar--active {
+.interactive-avatar__active {
+  border: 0.3333333333rem solid #365a49;
+}
+.interactive-avatar:hover {
   border: 0.3333333333rem solid #365a49;
 }
 
