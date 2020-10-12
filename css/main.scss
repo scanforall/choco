@@ -10,6 +10,8 @@ $phones: 480px;
 $blue: #61c4d9;
 $darkGreen: #0b4d3c;
 $black: #000;
+$grey: #666;
+
 
 //z-indexes
 
@@ -44,3 +46,4 @@ $z-fixed-menu: 100;
 @import "components/map";
 @import "components/footer";
 @import "components/socials";
+@import "components/team";

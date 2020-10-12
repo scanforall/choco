@@ -1,0 +1,92 @@
+.team {
+  font-size: 30px;
+  text-transform: none;
+  display: flex;
+  justify-content: space-between;
+
+  &--version--desktop {
+    display: flex;
+
+    @include tablets {
+      display: none;
+    }
+  }
+
+  &--version--mobile {
+    display: none;
+    
+
+    @include tablets {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      
+    }
+  }
+
+  &-section {
+    min-height: 100px;
+  }
+  
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+      
+  }
+
+  &__title {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    outline: none;
+    border: none;
+    background: transparent;
+    text-transform: none;
+    font-weight: bold;
+    
+    
+
+    &:after {
+      
+      content: "";
+      border: 4px solid transparent;
+      border-top: 6px solid $darkGreen;
+      display: inline-flex;
+      
+      position: relative;
+    }
+  }
+
+  &__content {
+    font-size: 18px;
+    overflow: hidden;
+    transition: height .3s;
+    height: 0;
+    position: absolute;
+    top:90%;
+
+    @include tablets {
+      position: relative;
+    }
+
+    &-block {
+      padding-bottom: 5px;
+      height: 125px;
+      max-width: 220px;
+
+      @include tablets {
+        height: 390px;
+      }
+    }
+    
+    &-text {
+      font-weight: normal;
+      color: $grey;
+      
+    }
+  }
+}
