@@ -11,6 +11,7 @@ $blue: #61c4d9;
 $darkGreen: #0b4d3c;
 $black: #000;
 $grey: #666;
+$lightgrey: #f8faf9;
 
 
 //z-indexes
@@ -47,3 +48,7 @@ $z-fixed-menu: 100;
 @import "components/footer";
 @import "components/socials";
 @import "components/team";
+@import "components/slider";
+@import "components/product";
+@import "components/structure";
+@import "components/modal";

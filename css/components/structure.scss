@@ -1,0 +1,21 @@
+.structure {
+  &__list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__item {
+    margin-right: 50px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__name {
+    color: $grey;
+  }
+
+  &__value {
+    font-weight: bold;
+  }
+}

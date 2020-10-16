@@ -1,0 +1,20 @@
+.slider {
+
+  .bx-wrapper {
+    border:0;
+    background: transparent;
+    box-shadow: none;
+  }
+  
+  &-section {
+    background: $lightgrey;
+    
+    &:after {
+      content: url(../../img/decor/berrys-leaf.png);
+      position: absolute;
+      right: 0;
+      top: 2660px;
+    }
+  }
+}
+

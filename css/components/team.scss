@@ -25,7 +25,7 @@
   }
 
   &-section {
-    min-height: 100px;
+    min-height: 822px;
   }
   
   &__item {
@@ -47,7 +47,7 @@
     background: transparent;
     text-transform: none;
     font-weight: bold;
-    
+    white-space: nowrap;
     
 
     &:after {
