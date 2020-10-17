@@ -87,6 +87,10 @@ img {
   max-width: 100%;
 }
 
+input {
+  outline: none;
+}
+
 .hero {
   background: url("../img/decor/big-leaf.png") right bottom no-repeat;
   background-color: #61c4d9;
@@ -1103,7 +1107,7 @@ img {
   margin-right: 32px;
 }
 
-.product__structure-btn:hover .modal {
+.product__structure-btn:hover .popup {
   display: flex;
 }
 
@@ -1124,7 +1128,7 @@ img {
   font-weight: bold;
 }
 
-.modal {
+.popup {
   position: absolute;
   left: 454px;
   top: 0;
@@ -1135,19 +1139,49 @@ img {
   padding: 24px 32px;
   border-radius: 4px;
 }
-.modal__item {
+.popup__item {
   flex-direction: row;
   display: flex;
   margin-bottom: 14px;
   justify-content: space-between;
 }
-.modal__item:last-child {
+.popup__item:last-child {
   margin-bottom: 0;
 }
-.modal__pic {
+.popup__pic {
   margin-right: 10px;
 }
-.modal__name {
+.popup__name {
   margin-right: 10px;
   flex: 1;
+}
+
+.modal {
+  display: none;
+}
+.modal.error-modal .modal__content {
+  color: red;
+}
+.modal.fancybox-content {
+  padding: 0 !important;
+}
+.modal .fancybox-button {
+  display: none;
+}
+
+.modal__container {
+  background: #fff;
+  padding: 35px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal__content {
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.input-error {
+  border-color: red;
 }

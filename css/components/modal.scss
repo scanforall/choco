@@ -1,35 +1,35 @@
 .modal {
-  position: absolute;
-  left: 454px;
-  top: 0;
-  flex-direction: column;
   display: none;
-  background: white;
-  color: #363636;
-  padding: 24px 32px;
-  border-radius: 4px;
-  
 
-  
-
-  &__item {
-    flex-direction: row;
-    display: flex;
-    margin-bottom: 14px;
-    justify-content: space-between;
-
-    &:last-child {
-      margin-bottom: 0;
+  &.error-modal {
+    .modal__content {
+    color: red;
     }
   }
 
-  &__pic {
-    margin-right: 10px;
+  &.fancybox-content {
+    padding: 0 !important;
   }
 
-  &__name {
-    margin-right: 10px;
-    flex: 1;
+  .fancybox-button {
+    display: none;
   }
+}
 
+
+.modal__container {
+  background: #fff;
+  padding: 35px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal__content {
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.input-error {
+  border-color: red;
 }
