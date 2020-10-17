@@ -486,6 +486,12 @@ input {
   opacity: 0;
   transition: 0.3s;
 }
+@media screen and (max-width: 768px) {
+  .reviews__item {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 .active {
   position: static;
@@ -1184,4 +1190,32 @@ input {
 
 .input-error {
   border-color: red;
+}
+
+.modal-menu {
+  display: none;
+}
+.modal-menu__item {
+  font-size: 36px;
+}
+.modal-menu--fdirect--column {
+  flex-direction: column;
+  color: #fff;
+}
+.modal-menu.fancybox-content {
+  padding: 0 !important;
+}
+
+.modal-menu__container {
+  background-color: #333537;
+  opacity: 0.99;
+  padding: 35px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-menu__content {
+  margin-bottom: 15px;
+  color: #fff;
 }
